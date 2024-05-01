@@ -7,7 +7,7 @@ def send_pushplus_notification(token, title, content):
     return response
 
 # 替换为您的PushPlus Token
-pushplus_token = '0cb6ae2cca62498182697216da27967a'
+pushplus_token = 'token'
 
 # 打开包含多个账号信息的文件，每行一个账号，格式为：用户名 密码 经度 纬度
 with open('accounts.txt', 'r') as accounts_file:
